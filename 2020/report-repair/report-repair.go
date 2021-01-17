@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 
 	years := []int{1721, 979, 366, 299, 675, 1456}
@@ -29,7 +27,6 @@ func repairReportOptimized(yearList []int, target int) int {
 			y := yearList[j]
 			sum := x + y
 			if sum == target {
-				fmt.Println(x * y)
 				product = x * y
 			}
 		}
